@@ -1,0 +1,25 @@
+overrides:
+  - files:
+    - "*.java"
+    options:
+      bracketSameLine: false
+      bracketSpacing: true
+      cursorOffset: -1
+      editorconfig: false
+      insertPragma: false
+      jsxSingleQuote: false
+      printWidth: 80
+      rangeEnd: null
+      rangeStart: 0
+      requirePragma: false
+      semi: true
+      singleAttributePerLine: false
+      singleQuote: false
+      tabWidth: 2
+      useTabs: false
+      vueIndentScriptAndStyle: false
+# Prettier config Yaml
+trailingComma: "es5"
+tabWidth: 2
+semi: false
+singleQuote: true

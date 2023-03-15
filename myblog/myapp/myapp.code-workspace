@@ -1,0 +1,58 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic",
+		"breadcrumbs.enabled": true,
+		"explorer.autoReveal": true,
+		"git.mergeEditor": true,
+		"merge-conflict.diffViewPosition": "Below",
+		"search.showLineNumbers": true,
+		"screencastMode.onlyKeyboardShortcuts": true,
+		"terminal.integrated.fontFamily": "MesloLGS NF",
+		"terminal.integrated.fontSize": 12,
+		"terminal.integrated.shellIntegration.enabled": true,
+		"terminal.integrated.defaultProfile.windows": "Git Bash",
+		"terminal.integrated.defaultProfile.osx": "iTerm.app",
+		"window.commandCenter": true,
+		"workbench.editor.highlightModifiedTabs": true,
+		"workbench.editor.decorations.colors": true,
+		"workbench.editor.decorations.badges": true,
+		"workbench.settings.editor": "json",
+		"workbench.tree.renderIndentGuides": "none",
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"java.configuration.maven.userSettings": "../.mvn/settings.xml",
+		"filewatcher.commands": [
+			{
+				"match": "\\.java",
+				"isAsync": true,
+				"cmd": "npx prettier --write ${files}",
+				"event": "onFileChange"
+			}
+		],
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.colorCustomizations": {
+			"statusBar.noFolderBackground": "#12235a",
+			"activityBar.activeBackground": "#1a3484",
+			"activityBar.background": "#1a3484",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#d52a54",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#1a3484",
+			"statusBar.background": "#12235a",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#1a3484",
+			"statusBarItem.remoteBackground": "#12235a",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#12235a",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#12235a99",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		}
+	}
+}
